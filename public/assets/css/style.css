@@ -1,0 +1,826 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+a
+{
+    font-family: "Poppins", sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: "Poppins", sans-serif;
+}
+p
+{
+    font-family: "Poppins", sans-serif;
+}
+section
+{
+    padding:50px 0;
+}
+
+/*menu*/
+
+header.desktop-menu
+{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    background:#fff;
+    z-index: 100;
+}
+
+header.desktop-menu nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:1px solid #ADADAD;
+    padding:10px 0;
+}
+header.desktop-menu nav ul
+{
+    margin:0px;
+}
+header.desktop-menu nav ul li
+{
+    display: inline-block;
+    margin-right:20px;
+}
+header.desktop-menu nav ul li a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#000;
+    font-weight: 500;
+}
+header.desktop-menu nav ul li:last-child a
+{
+    border: 1px solid #374151;
+    border-radius: 100px;
+    padding: 4px 20px;
+}
+.create-account a 
+{
+    background: #5F6FFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+/*home banner*/
+
+.homebanner
+{
+    position: relative;
+    height:670px;
+}
+.bg-blue
+{
+    background:#5F6FFF;
+    border-radius: 8px;
+    padding: 50px;
+    height: 500px;
+}
+.absolute-center
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding: 50px;
+}
+.banner-content h1
+{
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight:700;
+}
+.banner-txt
+{
+    color:#fff;
+}
+.profile-image ul
+{
+    padding:0px;
+    display: flex;
+}
+.profile-image ul li
+{
+    display: inline-block;
+    list-style: none;
+}
+.book-appointment
+{
+    margin-top:20px;
+}
+.book-appointment a
+{
+    border-radius: 25px;
+    color: #000;
+    padding: 13px 24px;
+    background: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.header-image img 
+{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 554px;
+}
+
+/*profile-div*/
+
+.profile-div
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.profile-div:hover .profile-list
+{
+    display: block;
+}
+.profile-div img
+{
+    width:30px;
+    height:30px;
+    border-radius: 100px;
+}
+.profile-div svg
+{
+    width:10px;
+    margin-left:5px;
+}
+.profile-list
+{
+    position: absolute;
+    left: 0;
+    top: 30px;
+    display: none;
+    width: 130px;
+    background: #c9d8ff;
+    padding: 10px;
+    border-radius: 6px;
+}
+.profile-list ul
+{
+    padding:0px;
+}
+.profile-list ul li
+{
+    list-style: none;
+    display: block;
+    width: 100%;
+}
+.profile-list ul li a
+{
+    font-size: 12px;
+}
+.profile-list ul li:last-child a
+{
+    border: none !important;
+    border-radius: none !important;
+    padding:0 !important;
+}
+
+/*profile-section*/
+
+.profile-picimage
+{
+    width:200px;
+    border-radius: 10px;
+}
+.profile-description .name-title
+{
+    border-bottom: 1px solid #ADADAD;
+    padding-bottom: 10px;
+    margin-top:20px;
+    width: fit-content;
+}
+.profile-description .sub-title
+{
+    color: #797979;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid #797979;
+    width: fit-content;
+}
+.profile-description .sub-title2
+{
+    margin-top:36px;
+}
+.profile-description .edit
+{
+    margin-top: 34px;
+}
+.profile-description .edit a
+{
+    border-radius: 100px;
+    border:1px solid #5F6FFF;
+    padding:10px 45px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/*page-not-found*/
+
+
+
+/*specialist-section*/
+
+.specialist-wrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.specialist-div
+{
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom, #AFC1DC, #E2E5ED);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.specialist-wrapper p
+{
+    margin-top:15px;
+}
+.specialist-div img 
+{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+.title
+{
+    color:#1F2937;
+    font-size:30px;
+    margin-bottom:36px;
+    font-weight:700;
+    text-transform: capitalize;
+}
+.desc
+{
+    font-size: 20px;
+    color:#1F2937;
+}
+.special-gap 
+{
+    margin-bottom: 40px;
+}
+
+/*doctors-section*/
+
+
+.doctors-column 
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 8px;
+    border:1px solid #c9d8ff;
+    overflow: hidden;
+}
+.mb20
+{
+    margin-bottom:25px;
+}
+.doctors-column .doctors-header
+{
+    background:#eaefff;
+}
+.doctors-column .doctors-body
+{
+    margin-top:20px;
+    padding: 0 20px 20px;
+}
+.doctors-column .doctors-body
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.doctors-column .doctors-body p
+{
+    flex: 1;
+    margin:0px;
+}
+.doctor-title
+{
+    color:#1F2937;
+    font-weight:600;
+    font-size: 20px;
+}
+.doctor-text
+{
+    color:#4B5563;
+}
+.read-more 
+{
+    width: fit-content;
+    display: block;
+    margin: 5px auto;
+    background-color: #eaefff;
+    border-radius: 20px;
+    padding: 11px 40px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #4B5563;
+    border: 0;
+}
+
+/*cta-section*/
+
+section.cta-section
+{
+    position: relative;
+}
+section.cta-section .title
+{
+    color:#fff;
+}
+.cta-bg
+{
+    position: relative;
+    background:#5F6FFF;
+    border-radius: 8px;
+    padding: 70px 70px 92px;
+}
+.cta-imagediv
+{
+    position: relative;
+}
+.cta-image 
+{
+    position: absolute;
+    bottom: -92px;
+    right: 0px;
+}
+.cta-image img 
+{
+    width: 327px;
+}
+.cta-details p
+{
+    color:#fff;
+}
+.cta-details a
+{
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#595959;
+}
+
+/*doctor-specialist*/
+
+section.doctor-specialist
+{
+    position: relative;
+}
+section.doctor-specialist ul li
+{
+    display: block;
+}
+section.doctor-specialist ul li a
+{
+    padding:10px 20px;
+    text-decoration: none;
+}
+
+/*doctor-sectionlist*/
+
+section.doctor-sectionlist
+{
+    padding:120px 0 21px;
+}
+section.doctor-sectionlist .doctor-title
+{
+    font-size: 17px;
+}
+section.doctor-sectionlist .doctors-column .doctors-body
+{
+    padding: 0 18px 20px;
+}
+.sectionlist-txt
+{
+    color:#4B5563;
+    font-size: 20px;
+}
+section.doctor-sectionlist ul
+{
+    padding:0px;
+}
+section.doctor-sectionlist ul li
+{
+    list-style: none;
+    margin-bottom: 15px;
+}
+section.doctor-sectionlist ul li p
+{
+    border: 1px solid #B4B4B4;
+    text-decoration: none;
+    padding: 9px 10px;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    color: #4B5563;
+    transition: all 0.3s ease;
+    font-size: 15px;
+    cursor: pointer;
+}
+section.doctor-sectionlist ul li p:hover
+{
+    background:#E2E5FF;
+}
+.doctors-anchor
+{
+    text-decoration: none;
+}
+
+/*appointment-section*/
+
+section.appointment-section
+{
+    position: relative;
+    padding: 120px 0 21px;
+}
+.appointment-column
+{
+    background:#5f6fff;
+    border-radius: 6px;
+}
+.appointment-column img 
+{
+    width: 100%;
+    max-width: 294px;
+    object-fit: cover;
+}
+.appointment-row
+{
+    border: 1px solid #ADADAD;
+    padding: 25px 28px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    height:100%
+}
+.appointment-row h2
+{
+    color:#374151;
+    margin-right: 6px;
+}
+.appointment-row strong
+{
+    color:#374151;
+    font-weight: 600;
+}
+.appointment-row p
+{
+    font-size: 15px;
+    margin-right:10px;
+}
+.appointment-tagline
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    align-items: center;
+}
+.appointment-tagline h4
+{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.appointment-experience
+{
+    border: 1px solid #4B5563;
+    border-radius: 100px;
+    padding: 2px 12px;
+}
+.badge-icon 
+{
+    width: 22px;
+    height: 22px;
+}
+.appointmentrow-title
+{
+    display: flex;
+}
+.about-desc
+{
+    display: flex;
+}
+.about-desc h4 
+{
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+}
+.about-desc svg
+{
+    display: flex;
+    border: 1px solid #4B5563;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    justify-content: center;
+    padding: 4px;
+    margin-left: 5px;
+}
+
+/*appointment-slot*/
+
+.appointment-slot
+{
+    display: flex;
+    padding: 0;
+}
+.appointment-slot .slot
+{
+    position: relative;
+    border: 1px solid #9CA3AF;
+    width: 63px;
+    border-radius: 100px;
+    height: 90px;
+    text-align: center;
+    margin: 20px 20px 0 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.appointment-slot .slot p
+{
+    text-transform: uppercase;
+    margin:0px;
+}
+.appointmentslot-content
+{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+/*appointment-time*/
+
+.appointment-time
+{
+    display: flex;
+    margin-top:19px;
+}
+.time-slot 
+{
+    border: 1px solid #9CA3AF;
+    border-radius: 100px;
+    width: 100%;
+    margin: 9px 9px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:6px 0;
+}
+.time-slot p
+{
+    margin:0;
+}
+.slot.selected
+{
+    background:#5F6FFF;
+}
+.slot.selected p
+{
+    color:#fff;
+}
+.book-appointmetnbtn
+{
+    background: #5F6FFF;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: capitalize;
+    width: fit-content;
+    border: 0;
+    border-radius: 100px;
+    margin-top: 25px;
+}
+
+/*about-section*/
+
+section.about-section 
+{
+    position: relative;
+    padding: 0px 0 50px;
+}
+.common-banner .absolute-center
+{
+    top:66%;
+}
+.common-banner 
+{
+    position: relative;
+    height: 250px;
+    padding: 0;
+}
+.common-banner h1
+{
+    text-align: center;
+    width: fit-content;
+    text-transform: uppercase;
+}
+
+/*contact-section*/
+
+section.contact-section
+{
+    position: relative;
+}
+.contact-list ul
+{
+    padding: 0px;
+}
+.contact-list ul li
+{
+    list-style: none;
+    margin-bottom:10px;
+}
+
+/*whychooseus-section*/
+
+section.whychooseus-section
+{
+    position: relative;
+}
+.whychoose-div
+{
+    margin:10px 0 10px 0;
+    border: 1px solid #ABABAB;
+    padding:30px 30px 15px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+.whychoose-div:hover
+{
+    background:#5F6FFF;
+}
+.whychoose-div:hover h3
+{
+    color:#fff;
+}
+.whychoose-div:hover p
+{
+    color:#fff;
+}
+.whychoose-div h3
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+
+/*login-section*/
+
+.login-section
+{
+    position: relative;
+    height:615px;
+    padding-bottom: 0px;
+}
+.form
+{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border: 1px solid #D4D4D4;
+    padding: 25px 30px 10px;
+    border-radius: 10px;
+}
+.form h4
+{
+    text-transform: capitalize;
+    color: #4B5563;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.form p
+{
+    color: #4B5563;
+    font-size: 14px;
+}
+.form-group
+{
+    margin-bottom:20px;
+}
+label
+{
+    text-transform: capitalize;
+    color:#4B5563;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.inpt
+{
+    border:1px solid #DADADA;   
+}
+.inpt:focus
+{
+    border:1px solid #DADADA;   
+    outline: 0px;
+    box-shadow: none;
+}
+.submit
+{
+    background: #5F6FFF;
+    color: #fff;
+    border: 0px;
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+/*signup-section*/
+
+.signup-section
+{
+    position: relative;
+    height:715px;
+    padding-bottom: 0px;
+}
+
+/*footer*/
+
+.footer
+{
+    padding:0px;
+}
+.footer-txt p
+{
+    color:#4B5563;   
+    font-size: 15px;
+    margin-top:20px; 
+}
+.widget h6
+{
+    color: #4B5563;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.footer-menu ul
+{
+    padding:0px;
+}
+.footer-menu ul li
+{
+    list-style: none;
+    margin-bottom:10px;
+}
+.footer-menu ul li a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#4B5563;
+}
+.footer-menu ul li.email a
+{
+    text-transform: lowercase;
+}
+.pl20
+{
+    padding-left:81px;
+}
+.bottom-footer
+{
+    text-align: center;
+    padding:15px 0;
+    border-top:1px solid #BDBDBD;
+}
+.upper-footer
+{
+    margin:27px 0;
+}
+.bottom-footer p
+{
+    margin-bottom:0px;
+    color:#4B5563;
+}
